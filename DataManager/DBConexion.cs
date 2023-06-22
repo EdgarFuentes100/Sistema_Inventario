@@ -10,7 +10,7 @@ namespace DataManager
 {
     public class DBConexion
     {
-        String _CadenaConexion = Utilidades.CLS.ConnectionStringEncryptor.DecryptConnectionString("hGs+/F9OcjXWiAsnWxEEsigOPd8fHQui0GNkO92jjE0FaUhQQpvbVFXSWle0EMTcqd50H2IUIP19/TLgpueFbd6/HRLsGp2XCtNoRWxZSNATak7xuhObUYgNpTUNViVC");
+        String _CadenaConexion = Utilidades.CLS.ConnectionStringEncryptor.DecryptConnectionString("hGs+/F9OcjXWiAsnWxEEsigOPd8fHQui0GNkO92jjE0FaUhQQpvbVFXSWle0EMTcKCrTwAgxEFMuqzZVlNLwSFIjvSR9DxopHKOAA8JK4Yw=");
         
         protected MySqlConnection conexion = new MySqlConnection();
 
